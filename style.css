@@ -42,18 +42,23 @@ li {
   display: inline-block;
   margin: 10px;
 }
-section {
+.services-photos {
   background-color: white;
   color: grey;
   padding: 20px;
   display: flex;
   flex-direction: row;
 }
-div {
-  background-color: red;
+.services-photos figure {
   margin: auto;
-  width: 100px;
+  width: 300px;
 }
+.services-photos figure img{
+  border-radius:40%;
+  width: 300px;
+
+}
+
 footer {
   background-color: black;
   padding: 20px;
