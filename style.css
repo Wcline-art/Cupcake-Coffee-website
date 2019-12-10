@@ -1,27 +1,32 @@
 body {
   background-color: rgb(58, 58, 58);
-  color: white;
+  color: #ff0089;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
 }
+
+/* HEADER */
+
 header {
   background-color: black;
   background-image: url(asset/photo-cupcake-home.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 220px;
+  height: 300px;
   padding: 20px;
   text-align: center;
 }
+
 header a {
-  color: white;
+  color: #ff0089;
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 30px;
 }
+
 header .logo a {
   background-image: url(asset/logocupcake.png);
   background-size: 150px;
@@ -33,15 +38,20 @@ header .logo a {
   height: 150px;
   width: 150px;
 }
-ul {
+
+nav ul {
   margin: 0;
-  padding: 0
+  padding: 0;
   list-style-type: none;
 }
-li {
+
+nav li {
   display: inline-block;
   margin: 10px;
 }
+
+/* MAIN*/
+
 .services-photos {
   background-color: white;
   color: grey;
@@ -49,15 +59,27 @@ li {
   display: flex;
   flex-direction: row;
 }
+
 .services-photos figure {
   margin: auto;
-  width: 300px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  width: 500px;
 }
-.services-photos figure img{
-  border-radius:40%;
-  width: 300px;
 
+.services-photos figure img {
+  border: 1px solid white;
+  border-radius: 30%;
+  box-shadow: grey 0 0 10px;
+  width: 300px;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
 }
+
+/*FOOTER*/
 
 footer {
   background-color: black;
